@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<layout name="example">
+  <header>/views/example/header.html</header>
+  <footer>/views/example/footer.html</footer>
+</layout>
+
+<layout name="bootstrap-basic">
+  <header>/views/boostrap-basic/header.html</header>
+  <section name="jumbotron">...</section>
+  <footer>/views/bootstrap-basic/footer.html</footer>
+</layout>

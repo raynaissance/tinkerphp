@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<themes>
+  <theme name="default">
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+    <link rel="icon" href="../../../../favicon.ico"></link>
+    <link href="/views/example/css/style.css" rel="stylesheet"></link>
+    <script position="start" src="/views/example/js/preload.js"></script>
+    <script position="end" src="/views/example/js/postload.js"></script>
+  </theme>
+  <theme name="xmas">
+    <link href="/views/example/css/color.css" rel="stylesheet"></link>
+  </theme>
+</themes>
