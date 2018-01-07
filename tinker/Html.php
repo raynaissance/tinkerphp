@@ -1,6 +1,8 @@
 <?php
 class Html
 {
+	// TODO: Update this class with Logging and Tinker paths
+	
   private $title;
   private $metas;
   private $stylesheets;
@@ -10,7 +12,7 @@ class Html
   public function __construct($title, $theme)
   {
     $this->metas = array();
-    $this->$stylesheets = array();
+    $this->stylesheets = array();
     $this->startScripts = array();
     $this->endScripts = array();
 

@@ -6,10 +6,15 @@ class View {
   private $layout;
   private $html;
 
-  public function __construct($title, $theme=null, $layout=null)
+	public function __construct()
+	{
+
+	}
+
+  public function Initialize($title, $theme=null, $layout=null)
   {
     // TODO: check that theme.xml exists & log it
-    echo "Constructing View... <br>";
+    Tinker::Log("Constructing Base view...");
     $this->html = new Html($title, $theme);
     if(!empty($layout))
     {
