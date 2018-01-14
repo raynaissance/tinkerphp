@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <themes>
-  <theme name="example">
+  <theme name="basic">
     <meta charset="utf-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
     <link rel="icon" href="../../../../favicon.ico"></link>
-    <link href="/views/example/css/style.css" rel="stylesheet"></link>
-	<link href="/views/example/css/color.css" rel="stylesheet"></link>
-    <script position="start" src="/views/example/js/preload.js"></script>
-    <script position="end" src="/views/example/js/postload.js"></script>
+    <link href="/themes/basic/css/style.css" rel="stylesheet"></link>
+	   <link href="/themes/basic/css/color.css" rel="stylesheet"></link>
+    <script position="start" src="/themes/basic/js/preload.js"></script>
+    <script position="end" src="/themes/basic/js/postload.js"></script>
   </theme>
-  <theme name="xmas">
+  <theme name="bootstrap">
 	  <meta charset="utf-8"></meta>
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
       <link rel="icon" href="../../../../favicon.ico"></link>
-      <link href="/views/example/css/style.css" rel="stylesheet"></link>
-	  <link href="/views/example/css/color.css" rel="stylesheet"></link>
-      <script position="start" src="/views/example/js/preload.js"></script>
-      <script position="end" src="/views/example/js/postload.js"></script>
+      <link href="/themes/bootstrap-example/css/style.css" rel="stylesheet"></link>
+	  <link href="/themes/bootstrap-example/css/color.css" rel="stylesheet"></link>
+      <script position="start" src="/themes/bootstrap-example/js/preload.js"></script>
+      <script position="end" src="/themes/bootstrap-example/js/postload.js"></script>
   </theme>
 </themes>

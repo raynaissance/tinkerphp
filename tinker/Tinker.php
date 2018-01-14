@@ -16,7 +16,11 @@ class Tinker {
 	{
 		// TODO: Set the URI variables by parsing config xml and adding paths to GLOBALS array
 		$GLOBALS['uri_views'] = "/views";
+		$GLOBALS['uri_themes'] = "/themes";
 		$GLOBALS['uri_controllers'] = "/controllers";
+
+		$GLOBALS['default_layout'] = "basic";
+		$GLOBALS['default_theme'] = "basic";
 	}
 
 	public static function getInstance()

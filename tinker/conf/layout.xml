@@ -1,11 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<layout name="example">
-  <header>/views/example/header.html</header>
-  <footer>/views/example/footer.html</footer>
+<layout name="basic">
+  <header>/themes/basic/html/header.html</header>
 </layout>
 
 <layout name="bootstrap-basic">
-  <header>/views/boostrap-basic/header.html</header>
-  <section name="jumbotron">...</section>
-  <footer>/views/bootstrap-basic/footer.html</footer>
+  <header>/themes/bootstrap-example/html/headers/minimalist.html</header>
+  <footer>/themes/bootstrap-example/html/footers/minimalist.html</footer>
+</layout>
+
+<layout name="bootstrap-plus">
+  <header>/themes/bootstrap-example/html/headers/technical.html</header>
+  <footer>/themes/bootstrap-example/html/footers/minimalist.html</footer>
 </layout>
